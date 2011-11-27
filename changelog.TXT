@@ -1,0 +1,10 @@
+Version 1.0, 15/11-2011
+    First version of the class includes:
+    - You can choose between the log as html or text file. Collect the message per day, per week or per month.
+    - function for addMailAddress that error message is sent to.
+    - function for reportInfo.
+    - function for reportWarning.
+    - function for reportError.
+    - intern function for saveToFile.
+    - intern function for sendEmail.
+    - intern function for getFileName.
