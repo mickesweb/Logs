@@ -1,5 +1,9 @@
  <?php
+    // Including class file.
+    include_once(dirname(__FILE__).'/class.log.php');
+    // Create a new instans of the class.
     $log = new Log("html","week");
+    
     // Write a info message in the log
     $log->reportInfo("A nice message.");
     
